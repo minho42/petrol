@@ -1,6 +1,13 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
+interface Price {
+  readonly Code: string;
+  readonly Price: number;
+  readonly Variance: number;
+  readonly FuelGroupCode: string;
+}
+
 export default function Home() {
   const [priceE10, setPriceE10] = useState(0);
   const [price95, setPrice95] = useState(0);
@@ -9,7 +16,7 @@ export default function Home() {
     const res = await fetch("https://api.onegov.nsw.gov.au/FuelCheckApp/v1/fuel/prices/currenttrend");
     const prices = await res.json();
     // console.log(prices);
-    prices.forEach((price) => {
+    prices.forEach((price: Price) => {
       if (price.FuelGroupCode === "E10") {
         setPriceE10(price.Price);
       } else if (price.FuelGroupCode === "P95") {
