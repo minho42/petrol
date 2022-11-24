@@ -37,26 +37,26 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center space-y-3">
-        <article className="flex flex-col w-full items-center justify-center space-y-3">
+        <article className="flex flex-col w-full items-center justify-center ">
           <h2 className="w-full font-semibold rounded-md bg-gray-200 text-center py-1">Fuel Check</h2>
-          <div className="flex w-full items-center justify-center space-x-4">
-            <div className="text-center text-xl rounded-xl py-3 border-2 border-black w-1/3 bg-green-100">
-              <div className="text-gray-600 ">E10</div>
+          <div className="flex w-full items-center justify-between text-white">
+            <div className="text-center text-xl py-3 w-full bg-green-500">
+              <div className="text-sm">E10</div>
               <div className="font-semibold">${priceE10}</div>
             </div>
-            <div className="text-center text-xl rounded-xl py-3 border-2 border-black w-1/3 bg-yellow-100">
-              <div className="text-gray-600 ">P95</div>
+            <div className="text-center text-xl py-3 w-full bg-blue-500">
+              <div className="text-sm">P95</div>
               <div className="font-semibold">${price95}</div>
             </div>
           </div>
         </article>
 
-        <article className="flex flex-col w-full items-center justify-center space-y-3">
+        <article className="flex flex-col w-full items-center justify-center">
           <h2 className="w-full font-semibold rounded-md bg-gray-200 text-center py-1">Petrol Spy</h2>
           <img className="" src="https://petrolspy.com.au/graph/sydney_U91E10.svg" />
         </article>
 
-        <article className="flex flex-col w-full items-center justify-center space-y-3">
+        <article className="flex flex-col w-full items-center justify-center">
           <h2 className="w-full font-semibold rounded-md bg-gray-200 text-center py-1">ACCC</h2>
           <img
             className=""
