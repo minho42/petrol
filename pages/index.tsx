@@ -31,8 +31,8 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>petrol</title>
-        <meta name="description" content="" />
+        <title>⛽️ Petrol</title>
+        <meta name="description" content="Check petrol prices in Sydney, NSW" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
