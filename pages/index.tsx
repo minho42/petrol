@@ -39,16 +39,16 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center space-y-3">
         <article className="flex flex-col w-full items-center justify-center ">
           <h2 className="w-full font-semibold rounded-md bg-gray-200 text-center py-1">Fuel Check</h2>
-          <div className="flex w-full items-center justify-between text-white">
-            <div className="text-center text-xl py-3 w-full bg-green-500">
-              <div className="text-sm">E10</div>
-              <div className="font-semibold">${priceE10}</div>
+          <section className="flex w-full items-center justify-between text-white">
+            <div className="text-center text-xl py-2 w-full bg-green-500">
+              <div className="text-xl">E10</div>
+              <div className="text-3xl font-semibold">${priceE10}</div>
             </div>
-            <div className="text-center text-xl py-3 w-full bg-blue-500">
-              <div className="text-sm">P95</div>
-              <div className="font-semibold">${price95}</div>
+            <div className="text-center text-xl py-2 w-full bg-blue-500">
+              <div className="text-xl">P95</div>
+              <div className="text-3xl font-semibold">${price95}</div>
             </div>
-          </div>
+          </section>
         </article>
 
         <article className="flex flex-col w-full items-center justify-center">
