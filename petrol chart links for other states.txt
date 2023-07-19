@@ -1,0 +1,15 @@
+https://petrolspy.com.au/graph/sydney_U91E10.svg
+https://petrolspy.com.au/graph/melbourne_U91E10.svg
+https://petrolspy.com.au/graph/brisbane_U91E10.svg
+https://petrolspy.com.au/graph/perth_U91E10.svg
+https://petrolspy.com.au/graph/adelaide_U91E10.svg
+https://petrolspy.com.au/graph/canberra_U91E10.svg
+https://petrolspy.com.au/graph/hobart_U91E10.svg
+https://petrolspy.com.au/graph/darwin_U91E10.svg
+
+
+https://www.accc.gov.au/sites/www.accc.gov.au/files/fuelwatch/sydney-ulp.png
+https://www.accc.gov.au/sites/www.accc.gov.au/files/fuelwatch/melbourne-ulp.png
+https://www.accc.gov.au/sites/www.accc.gov.au/files/fuelwatch/brisbane-ulp.png
+https://www.accc.gov.au/sites/www.accc.gov.au/files/fuelwatch/adelaide-ulp.png
+https://www.accc.gov.au/sites/www.accc.gov.au/files/fuelwatch/perth-ulp.png
